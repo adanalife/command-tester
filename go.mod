@@ -1,4 +1,4 @@
-module github.com/adanalife/tripbot/streamtest
+module github.com/adanalife/command-tester
 
 go 1.24.0
 

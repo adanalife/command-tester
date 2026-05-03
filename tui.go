@@ -344,7 +344,7 @@ func (m *Model) View() string {
 
 func (m *Model) viewList() string {
 	var b strings.Builder
-	b.WriteString(styleHeader.Render("streamtest — tripbot command coverage"))
+	b.WriteString(styleHeader.Render("command-tester — tripbot chat command coverage"))
 	b.WriteString("\n")
 	b.WriteString(styleDim.Render(fmt.Sprintf("as %s in #%s · listening for %s", m.login, m.channel, m.bot)))
 	b.WriteString("\n")

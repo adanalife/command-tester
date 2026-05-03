@@ -144,7 +144,7 @@ var Catalog = []Command{
 		Category:        "info",
 		ExpectsBotReply: false,
 		OnscreenEffect:  "middle-text",
-		SampleParams:    "hello from streamtest",
+		SampleParams:    "hello from command-tester",
 	},
 	{
 		Trigger:         "!miles",

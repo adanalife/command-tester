@@ -22,7 +22,7 @@ type Result struct {
 	Login      string `json:"login,omitempty"`
 	Channel    string `json:"channel,omitempty"`
 	Bot        string `json:"bot,omitempty"`
-	Version    string `json:"streamtest_version,omitempty"`
+	Version    string `json:"command_tester_version,omitempty"`
 	Admin      bool   `json:"admin,omitempty"`
 	Follower   bool   `json:"follower,omitempty"`
 	Subscriber bool   `json:"subscriber,omitempty"`

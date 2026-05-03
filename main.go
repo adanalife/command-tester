@@ -16,7 +16,7 @@ import (
 )
 
 func main() {
-	defaultLog := filepath.Join("logs", fmt.Sprintf("streamtest-%s.log", time.Now().Format("2006-01-02")))
+	defaultLog := filepath.Join("logs", fmt.Sprintf("command-tester-%s.log", time.Now().Format("2006-01-02")))
 	logPath := flag.String("log", defaultLog, "path to JSON-lines session log")
 	timeoutSec := flag.Int("timeout", 5, "seconds to wait for bot reply per command")
 	clientID := flag.String("client-id", os.Getenv("TWITCH_CLIENT_ID"), "Twitch app client ID (or set TWITCH_CLIENT_ID)")
